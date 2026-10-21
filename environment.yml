@@ -1,0 +1,13 @@
+name: envs
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.7
+  - pytorch=1.8.1
+  - cudatoolkit=11.1
+  - numpy=1.24.3
+  - scipy=1.11.1
+  - tqdm=4.65.0
+  - pip
